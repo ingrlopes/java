@@ -27,21 +27,22 @@ public class ContaTerminal {
 
         System.out.println("Obrigado por criar uma conta em nosso banco, " + nome + "!");
         System.out.println("Segue abaixo dados que obtive sobre você:");
-        System.out.println("Nome completo: " + nome + " " + sobrenome);
+        System.out.println("Nome completo: ".concat(nome).concat(" ").concat(sobrenome));
         System.out.println("Agência: " + agencia);
         System.out.println("Número do cartão: " + numero);
         System.out.println("----------------------------");
 
         System.out.println("Deseja verificar seu saldo disponível?");
         resultado = sc.next();
-        if (resultado.equals("Sim") || resultado.equals("sim")) {
+        char resposta = resultado.toLowerCase().charAt(0);
+        if (resposta == 's') {
             System.out.println("----------------------------");
             System.out.println("Saldo disponível: " + saldo + "$");
             System.out.println("----------------------------");
-        } else if (resultado.equals("Não") || resultado.equals("Nao") || resultado.equals("não") || resultado.equals("nao")) {
+        }
+        else if (resposta == 'n') {
             System.out.println("----------------------------");
         }
-        
         sc.close();
     }
 }
