@@ -201,4 +201,4 @@ Você deve pensar numa condição ternária como se fosse uma condição IF norm
 Sendo ? para "IF" e : para "ELSE"
 
 -------------------------------------
-Disponibilizado com ♥ por Ingrid Lopes
+Disponibilizado com ♥ por [Ingrid]((https://www.linkedin.com/in/ingrid-lopes-29a251274/ "Ingrid").
