@@ -199,3 +199,6 @@ Você deve pensar numa condição ternária como se fosse uma condição IF norm
 :
 ```
 Sendo ? para "IF" e : para "ELSE"
+
+-------------------------------------
+Disponibilizado com ♥ por Ingrid Lopes
