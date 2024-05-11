@@ -1,4 +1,4 @@
-import exception.ParametroException;
+import exception.ParametrosException;
 import java.util.Scanner;
 
 public class Contador {
