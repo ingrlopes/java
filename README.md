@@ -1,5 +1,5 @@
 # JAVA | Informações importantes
-Repositório para aprender sobre Java e armazenar informações importantes para poder programar.
+Repositório para aprender sobre Java básico e armazenar informações importantes para poder programar.
 
 
 ## 💻 Palavras Reservadas
@@ -86,21 +86,27 @@ Não são considerados objetos, e portanto representam valores brutos. Eles são
 
 ## 🔎 Tags
  Autor / criador
+ 
 ![@autor](https://img.shields.io/badge/@autor-CEDCE3?style=for-the-badge&logo=&logoColor=)
 
 Versão do recurso disponibilizado
+
 ![@version](https://img.shields.io/badge/@version-CEDCE3?style=for-the-badge&logo=&logoColor=)
 
 Versão / Data de início da disponibilização do recurso
+
 ![@since](https://img.shields.io/badge/@since-CEDCE3?style=for-the-badge&logo=&logoColor=)
 
 Descrição dos parâmetros dos métodos criados
+
 ![@param](https://img.shields.io/badge/@param-CEDCE3?style=for-the-badge&logo=&logoColor=)
 
 Definição do tipo de retorno de um método
+
 ![@return](https://img.shields.io/badge/@return-CEDCE3?style=for-the-badge&logo=&logoColor=)
 
 Se o método lança alguma exceção
+
 ![@throws](https://img.shields.io/badge/@throws-CEDCE3?style=for-the-badge&logo=&logoColor=)
 
 
@@ -201,4 +207,4 @@ Você deve pensar numa condição ternária como se fosse uma condição IF norm
 Sendo ? para "IF" e : para "ELSE"
 
 -------------------------------------
-Disponibilizado com ♥ por [Ingrid]((https://www.linkedin.com/in/ingrid-lopes-29a251274/ "Ingrid").
+Disponibilizado com ♥ por [Ingrid](https://www.linkedin.com/in/ingrid-lopes-29a251274/).
