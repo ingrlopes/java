@@ -1,59 +1,48 @@
-
 import java.util.Scanner;
 
 public class Contador {
     public static void main(String[] args) {
-        
-        Scanner sc = new Scanner(System.in);
-        int numb1;
-        int numb2;
 
-        System.out.println("-------------------------------------------");
+        Scanner sc = new Scanner (System.in);
+        int numb1, numb2;
 
-        System.out.println("Vamos trabalhar com 2 valores para saber o número de interações entre eles.");
-        System.out.println(" ");
+        System.out.println("-----------------------");
+        System.out.println("BEM VINDO AO CONTADOR!");
+        System.out.println("-----------------------");
 
-        System.out.println("Para começarmos, digite o primeiro número: ");
+        System.out.print("Digite o primeiro número:");
         numb1 = sc.nextInt();
 
-        System.out.println("Agora, digite o segundo número: ");
+        System.out.print("Digite o segundo número: ");
         numb2 = sc.nextInt();
 
-        System.out.println("-------------------------------------------");
+        System.out.println("-----------------------");
+        System.out.println("INICIANDO CONTAGEM...");
+        System.out.println("-----------------------");
 
         try {
             contar(numb1, numb2);
 
-        } catch (ParametrosException e) {
-
-            System.out.println("!!! ERRO !!!");
+        } catch (ParametrosException e) { 
+            System.out.println("-------------------------------");
+            System.out.println("!!! Error !!!");
             System.out.println(e.getMessage());
+
         }
+
+        System.out.println("-----------------------");
+        System.out.println("FIM.");
+        System.out.println("-----------------------");
     }
 
-    public static void contar(int parametroA, int parametroB) throws ParametrosException {
+    static void contar(int numb1, int numb2) throws ParametrosException {
 
-            if (parametroA >= parametroB) {
-                throw new ParametrosException();
+        if (numb1 > numb2) {
+            throw new ParametrosException("O segundo número deve ser maior que o primeiro");
 
-            } else {
-                int diferenca = parametroA - parametroB;
+        } for(int i = numb1; i <= numb2; i++) {
+            System.out.println("Número: " + i);
 
-                for (int i = 1; i <= diferenca; ++i) {
-                    System.out.println(i + "° interação: " + i);
-                }
-            }
-    }
-
-    public static int ler(Scanner scanner) {
-
-        while (true) {
-            try {
-                return Integer.parseInt(scanner.nextLine());
-
-            } catch (NumberFormatException e) {
-                System.out.println("Entrada inválida. Digite um número inteiro:");
-            }
         }
     }
 }

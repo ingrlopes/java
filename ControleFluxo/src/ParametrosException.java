@@ -1,2 +1,7 @@
-public class ParametrosException extends Exception {
+class ParametrosException extends Exception {
+
+    public ParametrosException (String message) {
+        
+        super(message);
+    }
 }
