@@ -1,4 +1,4 @@
-# JAVA | Informações importantes
+# JAVA BÁSICO | Informações importantes
 Repositório para aprender sobre Java básico e armazenar informações importantes para poder programar.
 
 
