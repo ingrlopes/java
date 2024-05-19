@@ -1,8 +1,12 @@
+import InterfacesIphone.Internet;
+import InterfacesIphone.Musica;
+import InterfacesIphone.Telefone;
+
 import java.util.Scanner;
 
 public class Iphone implements Telefone, Musica, Internet {
 
-    // Telefone
+    // InterfacesIphone.Telefone
     public void ligar() {
         System.out.println("LIGANDO...");
     }
@@ -24,7 +28,7 @@ public class Iphone implements Telefone, Musica, Internet {
         System.out.println("SELECIONANDO MÚSICA...");
     }
 
-    // Internet
+    // InterfacesIphone.Internet
     public void exibirPagina() {
         System.out.println("EXIBINDO PÁGINA...");
     }

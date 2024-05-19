@@ -1,3 +1,5 @@
+package InterfacesIphone;
+
 public interface Internet {
 
     void exibirPagina();
