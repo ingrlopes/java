@@ -1,3 +1,3 @@
-public class internet {
+public class Internet {
     
 }

@@ -1,3 +1,3 @@
-public class telefone {
+public class Telefone {
     
 }
